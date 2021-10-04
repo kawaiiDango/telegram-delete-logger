@@ -6,6 +6,6 @@ The chat ids there, are bot api style ids.
 
 - Logs a limited amount of messages at a time to reduce chances of getting a FloodWaitError.
   You probably don't want to see that spam anyways.
-- Telegram doesn’t always notify the clients that a message was deleted, so it will miss some
-  [telethon docs](C:\Users\arn\Dropbox\stuffs\pyweeb\telethon\tg-delete-logger)
+- Telegram doesn’t always notify the clients that a message was deleted, so it will miss some.
+  [telethon docs](https://docs.telethon.dev/en/latest/quick-references/events-reference.html#messagedeleted)
 - Telegram may not have the media after it was deleted
